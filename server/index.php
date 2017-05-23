@@ -87,7 +87,7 @@ if($parser->extendMarkup()) {
 }
 
 // Generate html via wikipedia api
-$url = "http://en.wikipedia.org/w/api.php";
+$url = "https://en.wikipedia.org/w/api.php";
 $fieldstr = "action=parse";
 $fieldstr .= "&title=" . urlencode($title);
 $fieldstr .= "&text=" . urlencode($markup);

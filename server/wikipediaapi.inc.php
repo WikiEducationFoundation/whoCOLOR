@@ -9,7 +9,7 @@ class WikiApiClient {
     // present in the currently viewed revision
     public $authorspresent = array();
     // This is the base URL for accessing the wikipedia api
-    private $APIURL = "http://en.wikipedia.org/w/api.php";
+    private $APIURL = "https://en.wikipedia.org/w/api.php";
     /*
      * Constructor; Takes article name and revision id
     */
